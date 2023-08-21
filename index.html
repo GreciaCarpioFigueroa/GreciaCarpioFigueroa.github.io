@@ -1,0 +1,49 @@
+<fieldset>
+    <legend> Datos de contacto </legend>
+    <input type ="text" name = "nombre" placeholder = "Ingresa un nombre de usuario"/>
+    <br>
+    <input type ="password" name = "pass" placeholder="Ingresa una contraseña"/>
+</fieldset>
+<fieldset>
+<select name ="id">
+    <option value="1"> Opcion 1 </option>
+    <option value="2"> Opcion 2 </option>
+    <option value="3"> Opcion 3 </option>
+</select>
+</fieldset>
+<textarea name = "Comentario" id="" cols="10" rows = "5">
+
+</textarea>
+<input type="number" min="0" max="10"/>
+
+<br>
+<br>
+<br>
+<form name="formulario" method="post" action="/enviar.php">
+    <!--Entrada de datos-->
+    Nombre de usuario:
+    <input type="text" name="Nombre" value=""/>
+    <br>
+    Correo electrónico:
+    <input type="email" name="Email" value="" placeholder="Ingresa tu correo electrónico">
+    <input type="submit" name="Enviar" id="Enviar"/>
+</form>
+<p>
+    Genero
+    <input type="radio" name="genero" value="F"/>Femenino
+    <input type="radio" name="genero" value="M"/>Masculino
+</p>
+
+<p>
+    Cursos
+    <input type="checkbox" name="cursos" /> Diseño de aplicaciones
+    <input type="checkbox" name="cursos" /> Redes
+    <input type="checkbox" name="cursos" /> Infraestructura
+    <input type="checkbox" name="cursos" checked /> Gestión de datos
+</p>
+
+<form action="">
+<input type="text" name="nombre" minlength="5" maxlength="40"/>
+<input type="number" placeholder="edad" min="0" max="60"/>
+<button type="submit">Enviar</button>
+</form>
