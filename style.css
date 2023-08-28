@@ -1,0 +1,15 @@
+p{
+    color: cadetblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+}
+h1, h2, h{
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+col{
+    color: cornsilk;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+}
